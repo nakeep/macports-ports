@@ -1,8 +1,8 @@
 PortSystem          1.0
 
 name                alliance
-version             5.0-20110203
-revision            2
+version             5.1.1
+revision            3
 license             GPL
 set version_number  [lindex [split ${version} -] 0]
 categories          science
@@ -13,12 +13,12 @@ long_description    Alliance is a complete set of free CAD tools and portable li
                     tools, and automatic place and route tools. A complete set of portable \
                     CMOS libraries is provided
 platforms           darwin
-homepage            http://www-soc.lip6.fr/en/recherche/cian/alliance/
+homepage            https://soc-extras.lip6.fr/en/alliance-abstract-en/
 
 master_sites        ftp://asim.lip6.fr/pub/alliance/distribution/latest
 
-checksums           sha1    a1a9f84b5120ea262c989fcf42a6131ee54d5ec7 \
-                    rmd160  be9554ae1c84c1f6d4cd49bf19e2fe997d9ec27b
+checksums           sha256    811f201881af46d9d36f1c60b184c136fd2b8bebbe932a29e07ced40394ecc10 \
+                    rmd160  ad765aa6ce035f47d2a9745389dd58638d23ea87
 
 depends_lib         port:xpm \
                     port:openmotif
